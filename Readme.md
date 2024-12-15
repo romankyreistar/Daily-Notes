@@ -210,6 +210,7 @@ npm test
 ### Frontend
 
 - **Styling**: Use Tailwind CSS for a modern, responsive, and consistent UI.
+- **Notification**: Add notification for the api response.
 - **Audio Features**: Add functionality for trimming, editing, and previewing
   audio recordings before saving.
 - **Search and Filter**: Enable search and filtering of notes by title,
