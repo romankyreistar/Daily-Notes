@@ -34,7 +34,7 @@ export const SideNavLeft = () => {
             className='brand-logo'
             alt='NoteManager Logo'
           />
-          <h3 className='brand-name'>NoteManager</h3>
+          <h3 className='brand-name'>Note Manager</h3>
         </div>
         <Navbar />
       </div>

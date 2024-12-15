@@ -15,6 +15,7 @@
 
 .sidenav-left .brand {
   align-items: flex-end;
+  justify-self: center;
   flex-flow: row wrap;
   gap: 0.5rem;
   padding: 0 1.5rem;
