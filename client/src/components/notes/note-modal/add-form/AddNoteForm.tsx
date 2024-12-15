@@ -6,7 +6,7 @@ import { Button } from '@/components';
 
 export const AddNoteForm = () => {
   const { handleNewNote, handleModalVisible } = useContext(AppContext);
-  const [audioBlob, setAudioBlob] = useState<Blob | null>(null); // State to store the recorded audio
+  const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const { status, startRecording, stopRecording, mediaBlobUrl } =
     useReactMediaRecorder({
       video: false,
@@ -78,7 +78,7 @@ export const AddNoteForm = () => {
         </label>
       </div>
       <div className='form-block'>
-        <label>Audio Record</label>
+        <span>Audio Record</span>
         <div className='flex flex-col gap-1'>
           <p>Status: {status}</p>
           <div className='flex flex-row gap-1'>
@@ -111,6 +111,7 @@ export const AddNoteForm = () => {
       <Button
         className='add-Note-btn btn-modal'
         text='Add Note'
+        name='Add Note'
         type='submit'
       />
     </form>
