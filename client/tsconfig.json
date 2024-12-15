@@ -18,6 +18,6 @@
     },
     "types": ["vite/client"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "./jest.setup.ts", "src/components/notes/note-modal/add-form/AddNoteForm.test.tsx"],
   "exclude": ["node_modules"]
 }
