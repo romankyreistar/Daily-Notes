@@ -39,9 +39,6 @@ export const SignUpPage: React.FC = () => {
     }
 
     signup(email, password);
-    navigate('/dashboard/all', {
-      replace: true,
-    });
   });
 
   return (
