@@ -2,6 +2,12 @@
 
 ## Overview
 
+![taskmanager-dashboard-dark](client/src/assets/taskmanager-dashboard-dark.png)
+
+---
+
+![taskmanager-dashboard-light](client/src/assets/taskmanager-dashboard-light.png)
+
 The **Daily Notes Management Application** allows users to:
 
 - Create, read, update, and delete notes.
